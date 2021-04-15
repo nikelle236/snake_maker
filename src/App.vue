@@ -13,6 +13,9 @@
   </div>
   <hr>
   <router-view />
+  <div class="footer">
+     <p class="footerText">Nikelle Turner's Github <a href="https://github.com/nikelle236/snake_maker">Repository</a></p>
+  </div>
 </div>
 </template>
 
@@ -62,5 +65,9 @@ body {
 
 .browse {
   margin-right: 50px;
+}
+
+.footer {
+  text-align: center;
 }
 </style>
